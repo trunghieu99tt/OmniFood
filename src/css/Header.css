@@ -1,0 +1,81 @@
+#header {
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.6),
+			rgba(0, 0, 0, 0.7)
+		),
+		url(../img/hero.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header__navbar--img {
+	width: 10%;
+}
+
+.header__navbar--li {
+	position: relative;
+}
+
+.header__navbar--li::after {
+	position: absolute;
+	content: "";
+	background-color: var(--light_orange);
+	width: 0;
+	height: 3%;
+	left: 15%;
+}
+
+.header__navbar--li:hover::after {
+	width: 70%;
+	transition: 0.5s;
+}
+
+#header__main {
+	height: 50%;
+}
+
+.header__main--btn__real {
+	background-color: var(--light_orange);
+	color: #fff;
+	border: none;
+}
+
+.header__main--btn__real:hover {
+	background-color: var(--bold_orange);
+	color: #fff;
+}
+
+.header__main--btn__shadow {
+	border-color: var(--light_orange);
+	color: var(--light_orange);
+}
+
+.header__main--btn__shadow:hover {
+	background-color: var(--light_orange);
+	color: #fff;
+}
+
+@media (max-width: 987px) {
+	.header__navbar--img {
+		width: 20%;
+	}
+}
+
+@media (max-width: 450px), (max-height: 750px) {
+	#header__main h2 {
+		font-size: 100%;
+		text-align: center;
+	}
+	.header__main--btn__real,
+	.header__main--btn__shadow {
+		font-size: 80%;
+	}
+
+	#header__main--btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

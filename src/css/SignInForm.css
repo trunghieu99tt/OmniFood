@@ -1,0 +1,14 @@
+#form{
+    margin-top: 5%;
+}
+
+.form-group > .row,
+.form-check > .row{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    input, select, textarea{
+        width: 100% !important;
+    }
+}

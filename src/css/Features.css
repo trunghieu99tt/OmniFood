@@ -1,0 +1,31 @@
+.features__description {
+	width: 70%;
+	margin: 5% auto;
+	font-weight: 400;
+}
+
+.features__main--icons {
+	color: var(--light_orange);
+	font-size: 3rem;
+}
+
+#features__description--heading {
+	position: relative;
+	padding: 5%;
+}
+
+#features__description--heading::after {
+	position: absolute;
+	content: "";
+	width: 40%;
+	left: 30%;
+	height: 2px;
+	bottom: 0;
+	background-color: var(--light_orange);
+}
+
+@media (max-width: 450px) {
+	.features__main {
+		text-align: center;
+	}
+}

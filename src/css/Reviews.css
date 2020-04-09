@@ -1,0 +1,35 @@
+#reviews{
+    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.7)), url(../img/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.reviews__content{
+    height: 50%;
+    position: relative;
+}
+
+.reviews__content::before{
+    content: '\201C';
+    position: absolute;
+    font-size: 500%;
+    top: -55px;
+    left: -10px;
+}
+
+
+
+.reviews__imgContainer{
+    width: 20%;
+    height: 100%;
+}
+
+.card-header{
+    height: 40%;
+    background: transparent;
+}
+
+.card-footer{
+    height: 20%;
+    background: transparent;
+}

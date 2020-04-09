@@ -1,0 +1,55 @@
+:root {
+	--light_orange: #ffa500;
+	--bold_orange: #bf7f08;
+}
+
+.App {
+	text-align: center;
+	overflow: hidden;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.heading-text {
+	position: relative;
+	padding-bottom: 2rem;
+}
+
+.heading-text::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 40%;
+	width: 20%;
+	background: var(--light_orange);
+	height: 3%;
+}
+
+i {
+	color: var(--light_orange);
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
