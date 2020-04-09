@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/OmniFood/static/css/main.ee2f4867.chunk.css",
-    "main.js": "/OmniFood/static/js/main.823d03e9.chunk.js",
-    "main.js.map": "/OmniFood/static/js/main.823d03e9.chunk.js.map",
+    "main.css": "/OmniFood/static/css/main.626606a0.chunk.css",
+    "main.js": "/OmniFood/static/js/main.32cd6315.chunk.js",
+    "main.js.map": "/OmniFood/static/js/main.32cd6315.chunk.js.map",
     "runtime-main.js": "/OmniFood/static/js/runtime-main.c55fc384.js",
     "runtime-main.js.map": "/OmniFood/static/js/runtime-main.c55fc384.js.map",
     "static/css/2.7abef457.chunk.css": "/OmniFood/static/css/2.7abef457.chunk.css",
     "static/js/2.296a8440.chunk.js": "/OmniFood/static/js/2.296a8440.chunk.js",
     "static/js/2.296a8440.chunk.js.map": "/OmniFood/static/js/2.296a8440.chunk.js.map",
     "index.html": "/OmniFood/index.html",
-    "precache-manifest.f57a0a9f414c9730ca57c48e587232fb.js": "/OmniFood/precache-manifest.f57a0a9f414c9730ca57c48e587232fb.js",
+    "precache-manifest.27ce60911a14583bbdfe4ef30d953554.js": "/OmniFood/precache-manifest.27ce60911a14583bbdfe4ef30d953554.js",
     "service-worker.js": "/OmniFood/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/OmniFood/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.ee2f4867.chunk.css.map": "/OmniFood/static/css/main.ee2f4867.chunk.css.map",
+    "static/css/main.626606a0.chunk.css.map": "/OmniFood/static/css/main.626606a0.chunk.css.map",
     "static/media/1.jpg": "/OmniFood/static/media/1.ec4871fa.jpg",
     "static/media/2.jpg": "/OmniFood/static/media/2.5d8068eb.jpg",
     "static/media/3.jpg": "/OmniFood/static/media/3.b92586dc.jpg",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.c55fc384.js",
     "static/css/2.7abef457.chunk.css",
     "static/js/2.296a8440.chunk.js",
-    "static/css/main.ee2f4867.chunk.css",
-    "static/js/main.823d03e9.chunk.js"
+    "static/css/main.626606a0.chunk.css",
+    "static/js/main.32cd6315.chunk.js"
   ]
 }
